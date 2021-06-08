@@ -18,6 +18,14 @@ class Matrix{
             cout<<endl;
         }
     }
+    Matrix operator+(Matrix m){
+        Matrix res(0);
+        for(int i=0;i<3;i++){
+            for(int j=0;j<3;j++){
+                res[i][j]=arr[i][j]+m.arr[i][j];
+            }
+        }
+    }
 };
 
 int main(){
