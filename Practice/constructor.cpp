@@ -8,6 +8,16 @@ class Student{
     int roll;
     int age;
 
+    //special function called constructor
+    //default constructor:
+    //Student(){
+    //    
+    //}
+
+    Student(){
+        cout<<"default constructor is called"<<endl;
+    }
+
     void introduce(){
         cout<<"Name: "<<name<<endl;
         cout<<"School: "<<school<<endl;
